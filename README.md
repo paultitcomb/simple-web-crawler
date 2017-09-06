@@ -14,4 +14,8 @@ Simple web crawler that allows you to search a website for a particular word or 
 
 * to run a search just type `node crawl.js "Nigeria" https://qa.stcdev.com` to run a search for the word **Nigeria** starting at the URL **https://qa.stcdev.com**.
 
+* Change the value of **Nigeria** to the search term you want to find, and **https://qa.stcdev.com** for the URL of the start point of your search.
+
 * It will return a set of URLs at the end where this text phrase has been located.
+
+**N.B. Node has to be installed on your computer for this to work**
