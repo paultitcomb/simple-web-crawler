@@ -31,7 +31,7 @@ function crawl() {
     }
   } else {
     console.log("\nFinished search.");
-    console.log('\nThe word(s) "' + SEARCH_WORD + '" was found on the following pages:');
+    console.log('\nThe word(s) "' + SEARCH_WORD + '" was found on the following ' + matchesFound.length + ' pages:');
     matchesFound.forEach(function (matchUrl) {
       console.log("\x1b[32m", '\n' + matchUrl);
     });
