@@ -9,6 +9,8 @@ Simple web crawler that allows you to search a website for a particular word or 
 
 * type `npm install` to read the package.json file and download the correct dependencies.
 
+* there is a bug in one of the libraries that this web crawler uses, so after you have run `npm install` type `npm run upgrade` and this will copy over the upgraded library files that fix the bug. You'll only need to do this once.
+
 
 ## To run a search
 
