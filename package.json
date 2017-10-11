@@ -4,7 +4,8 @@
   "description": "A tool to crawl a website and look for a search term",
   "main": "crawl.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upgrade": "n-copy --source updated_domutils --destination node_modules/domutils/lib '*'"    
   },
   "author": "Paul Titcomb",
   "license": "ISC",
